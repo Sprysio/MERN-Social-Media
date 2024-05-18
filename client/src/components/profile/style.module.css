@@ -1,0 +1,43 @@
+.profilePage {
+    padding: 20px;
+  }
+  
+  .userData {
+    margin-bottom: 20px;
+  }
+  
+  .userData h2 {
+    margin-bottom: 10px;
+  }
+  
+  .profilePicture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .userData {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+  .sortBy {
+    margin-bottom: 20px;
+  }
+  
+  .sortBy label {
+    margin-right: 10px;
+  }
+  
+  .posts {
+    display:flex;
+    width:80%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  

@@ -1,0 +1,60 @@
+.postForm {
+    padding: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contentInput {
+    height: 200px;
+    width:80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .fileLabel {
+    margin-bottom: 10px;
+  }
+  
+  .fileInput {
+    margin-bottom: 20px;
+  }
+  
+  .currentPictureContainer {
+    margin-bottom: 20px;
+  }
+  
+  .currentPictureLabel {
+    margin-bottom: 10px;
+  }
+  
+  .currentPicture {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .submitButton {
+    background-color: #3bb19b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #308c79;
+  }
+  
+  .errorMessage {
+    color: red;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,104 @@
+.post-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width:87%;
+    display: flex; 
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 20px;
+  }
+  .user-info{
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+
+  }
+  .post-content {
+    flex-grow: 1;
+    margin-bottom: 10px;
+  }
+  
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .username-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+  }
+  .username {
+    margin-right: 10px; 
+    margin-bottom: 80px;
+  }
+  
+  .updated-at {
+    margin-left: auto;/* Push to the far right */
+  }
+  
+  .post-image {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .post-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .like-button,
+  .comment-button {
+    background-color: #3bb19b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .edit-delete-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-button,
+  .delete-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .post-card {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .post-header {
+      flex-direction: column; /* Switch to column layout for header elements */
+      align-items: flex-start; /* Align elements to the start of the column */
+    }
+  
+    .updated-at-container {
+      margin-top: 5px; /* Add some space between username and updated-at */
+    }
+  }
