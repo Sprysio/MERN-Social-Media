@@ -15,23 +15,31 @@ This is a full-stack social media application built with React, Node.js, Express
 1. Clone the repository:
 
 2. Install dependencies for the client and server:
-cd projekcik/client
+
+cd MERN-Social-Media/client
+
 npm install
 
 cd ../server
+
 npm install
+
 3. Start the client and server:
 
 cd ../client
+
 npm run dev
 
 cd ../server
+
 npm start
 
 4. This project uses environment variables for configuration.
 
 PORT=8888
+
 MONGODB_URI=mongodb://localhost:27017/
+
 SECRETKEY=your_secret
 
 5. Create necessary directories
