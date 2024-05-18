@@ -130,5 +130,5 @@ dist
 .pnp.*
 
 #post and profile pictures folders
-profile_pictures
-post_pictures
+profile_pictures/
+post_pictures/
